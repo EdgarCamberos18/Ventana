@@ -9,7 +9,12 @@ public class Ventana{
 		ventana.setVisible(true);
 
 		Container container = ventana.getContentPane();
-		container.setLayout(new GridBagLayout());	
+		container.setLayout(new GridBagLayout());
+
+		JButton b1,b2,b3;
+		b1= new JButton ("Boton1");
+		b2= new JButton ("Boton2");
+		b3= new JButton ("Boton3");	
 	}
 
 }
